@@ -3,7 +3,7 @@ name: Publish Snapshot
 on:
   push:
     branches:
-      - master
+      - trigger_the_snapshop_for_gradle_8
 
 jobs:
   publish:
